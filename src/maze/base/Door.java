@@ -1,11 +1,11 @@
-package maze;
+package maze.base;
 
 public class Door extends MapSite {
 	private Room room1;
 	private Room room2;
 	private boolean isOpen;
 	
-	Door (Room r1, Room r2) {}
+	public Door (Room r1, Room r2) {}
 	
 	Room otherSideFrom (Room room) {
 		if(room.equals(this.room1)){

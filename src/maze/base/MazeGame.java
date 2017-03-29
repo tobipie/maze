@@ -1,4 +1,6 @@
-package maze;
+package maze.base;
+
+
 
 public class MazeGame {
 	Maze createMaze () {
